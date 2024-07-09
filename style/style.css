@@ -17,6 +17,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin: 0 150px 47px 150px;
+    box-sizing: border-box;
 }
 
 nav ul {
@@ -61,8 +62,8 @@ nav ul li a {
 .banner-container {
     width: 1440px;
     height: 652px;
-    background-image: url("../assets/hero-bg.png");
     display: flex;
+    background-image: url('/assets/hero-bg.png');
     flex-direction: column;
     background-repeat: no-repeat;
     background-size: contain;
@@ -112,9 +113,6 @@ nav ul li a {
 .development {
     width: 1140px;
     height: 1395px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     padding: 80px 97px 80px 97px;
@@ -126,9 +124,12 @@ nav ul li a {
     width: 852px;
     height: 39px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
-.dev-content .dev-title {
+.development .dev-title {
     font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
@@ -137,9 +138,60 @@ nav ul li a {
 
 }
 
-.dev-content .dev-desc {
+.development .dev-desc {
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
     color: #0D1321;
+}
+
+/* do coding style */
+.do-coding {
+    width: 946px;
+    height: 336px;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 48px;
+}
+
+.do-coding .coding-content {
+    width: 477px;
+    /* max-width: 850px; */
+    height: 240px;
+}
+
+.coding-content .coding-title {
+    font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+color: #0D1321B3;
+}
+
+.coding-content .coding-desc {
+    font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+color: #0D1321;
+}
+
+.learn-more {
+    padding: 12px 20px 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-top: 32px;
+}
+
+.learn-more a {
+    text-decoration: none;
+    color: #0D1321;
+}
+
+.coding-right-image img {
+    width: 230px;
+    height: 217px;
 }
