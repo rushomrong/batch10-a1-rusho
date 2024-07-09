@@ -16,7 +16,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 150px;
+    margin: 0 150px 47px 150px;
 }
 
 nav ul {
@@ -49,5 +49,18 @@ nav ul li a {
     background-color: #fff;
     padding: 17px 24px 17px 24px;
     text-align: cen;
-    
+
+}
+
+/* banner container style */
+.banner-container {
+    width: 1440px;
+    height: 652px;
+    background-image: url("/assets/hero-bg.png");
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: contain;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
