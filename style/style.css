@@ -56,7 +56,7 @@ nav ul li a {
 .banner-container {
     width: 1440px;
     height: 652px;
-    background-image: url("/assets/hero-bg.png");
+    background-image: url("../assets/hero-bg.png");
     display: flex;
     background-repeat: no-repeat;
     background-size: contain;
