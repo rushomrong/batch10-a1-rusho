@@ -63,7 +63,7 @@ nav ul li a {
     width: 1440px;
     height: 652px;
     display: flex;
-    background-image: url('/assets/hero-bg.png');
+    background-image: url('/assets/Hero-bg.png');
     flex-direction: column;
     background-repeat: no-repeat;
     background-size: contain;
@@ -232,4 +232,48 @@ nav ul li a {
     font-weight: 400;
     color: #0D1321;
     opacity: 0.7;
+}
+
+
+/* inspiration section style */
+.insperation {
+    width: 1140px;
+    height: 775px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 88px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.insperation .inspi-title {
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+}
+
+.insperation .inspi-desc {
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+    opacity: 0.7;
+    margin-bottom: 48px;
+
+}
+
+.youtube-video {
+    width: 1140px;
+    height: 614px;
+    padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+
+.youtube-video .jhanker {
+    border-radius: 16px;
 }
