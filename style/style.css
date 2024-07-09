@@ -497,6 +497,7 @@ nav ul li a {
     margin: 0 auto;
     margin-top: 170px;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .support .support-content {
@@ -555,11 +556,11 @@ nav ul li a {
 
 footer {
     /* width: 1440px; */
-    height: 100px;
+    /* height: 100px; */
     padding: 32px 150px 32px 150px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.03);
-    margin: 88px;
+    margin: 0 auto;
 }
 
 
