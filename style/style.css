@@ -42,6 +42,10 @@ nav ul li a {
 
 .download-btn {
     box-sizing: border-box;
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 600;
+    color: #0D1321;
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
     opacity: 0.8;
@@ -49,8 +53,6 @@ nav ul li a {
     height: 58px;
     background-color: #fff;
     padding: 17px 24px 17px 24px;
-    text-align: cen;
-
 }
 
 
@@ -63,7 +65,7 @@ nav ul li a {
     width: 1440px;
     height: 652px;
     display: flex;
-    background-image: url('/assets/Hero-bg.png');
+    background-image: url("../assets/Hero-bg.png");
     flex-direction: column;
     background-repeat: no-repeat;
     background-size: contain;
@@ -461,7 +463,7 @@ nav ul li a {
 .support {
     width: 1140px;
     height: 313px;
-    background-image: url("/assets/handshake.jpg");
+    background-image: url("../assets/handshake.jpg");
     position: relative;
     display: flex;
     flex-direction: column;
