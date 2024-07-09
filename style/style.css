@@ -115,7 +115,7 @@ nav ul li a {
     height: 1395px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
-    padding: 80px 97px 80px 97px;
+    padding: 80px 97px 140px 97px;
     margin: 0 auto;
     text-align: center;
 }
@@ -241,11 +241,12 @@ nav ul li a {
     height: 775px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     padding-top: 88px;
     margin: 0 auto;
     text-align: center;
+    margin-bottom: 151px;
 }
 
 .insperation .inspi-title {
@@ -276,4 +277,182 @@ nav ul li a {
 
 .youtube-video .jhanker {
     border-radius: 16px;
+}
+
+/* current target style */
+.current-target {
+    width: 1140px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.current-target .target-title {
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+    margin-bottom: 24px;
+}
+
+.current-target .target-desc {
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+/* skills style section */
+
+
+.skills-container {
+    display: flex;
+    flex-direction: row;
+}
+.skills {
+    width: 1140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+
+}
+
+.skills .html {
+    width: 364px;
+    height: 299px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+
+.html, .css, .js img {
+    width: 56px;
+    height: 56px;
+} 
+
+.html .skill-title {
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    color: #0D1321;
+    margin-top: 24px;
+}
+
+.html .skill-desc {
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+    opacity: 0.7;
+    margin-top: 8px;
+}
+
+.css .skill-title {
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    color: #0D1321;
+    margin-top: 24px;
+}
+
+.css .skill-desc {
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+    opacity: 0.7;
+    margin-top: 8px;
+}
+
+
+.js .skill-title {
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    color: #0D1321;
+    margin-top: 24px;
+}
+
+.js .skill-desc {
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+    opacity: 0.7;
+    margin-top: 8px;
+}
+
+.html .skill-btn {
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 24px 0px;
+    color: #0D1321;
+}
+
+.css .skill-btn {
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 24px 0px;
+    color: #0D1321;
+}
+
+.js .skill-btn {
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 24px 0px;
+    color: #0D1321;
+}
+
+
+.html .skill-btn a {
+    color: #0D1321;
+}
+
+.css .skill-btn a {
+    color: #0D1321;
+}
+
+.js .skill-btn a {
+    color: #0D1321;
+}
+
+
+.skills .css {
+    width: 364px;
+    height: 299px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    margin: 0px 24px;
+}
+
+.skills .js {
+    width: 364px;
+    height: 299px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
 }
