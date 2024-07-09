@@ -288,6 +288,7 @@ nav ul li a {
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
+    margin-bottom: 111px;
 }
 
 .current-target .target-title {
