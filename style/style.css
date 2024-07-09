@@ -13,11 +13,22 @@
 
 /* Navigation style */
 nav {
+    overflow: hidden;
+    background: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 150px 47px 150px;
+    /* margin: 0 150px 47px 150px; */
+    margin: 0;
     box-sizing: border-box;
+}
+
+.top-menu {
+    width: 1440px;
+    height: 70px;
+    margin: 0 150px 47px 150px;
+    display: flex;
+    justify-content: space-between;
 }
 
 nav ul {
@@ -31,6 +42,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
+    
 }
 
 .nav-title {
@@ -53,11 +65,19 @@ nav ul li a {
     height: 58px;
     background-color: #fff;
     padding: 17px 24px 17px 24px;
+    margin-top: 30px;
+    cursor: pointer;
 }
 
 
 .header-container {
+    background-image: url("../assets/Hero-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
     margin-bottom: 74px;
+
 }
 
 /* banner container style */
@@ -65,10 +85,7 @@ nav ul li a {
     width: 1440px;
     height: 652px;
     display: flex;
-    background-image: url("../assets/Hero-bg.png");
     flex-direction: column;
-    background-repeat: no-repeat;
-    background-size: contain;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
