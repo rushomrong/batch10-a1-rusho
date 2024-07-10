@@ -348,6 +348,7 @@ nav ul li a {
 }
 
 .current-target .target-desc {
+    width: 996px;
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
