@@ -311,6 +311,7 @@ nav ul li a {
     color: #0D1321;
     opacity: 0.7;
     margin-bottom: 48px;
+    padding: 0 30px 0 30px;
 
 }
 
@@ -619,8 +620,9 @@ footer {
 .footer-icon {
     width: 36px;
     height: 36px;
-    gap: 30px;
+    gap: 24px;
     display: flex;
-    margin-right: 96px;
+    margin-right: 122px;
     margin-top: 20px;
+
 }
