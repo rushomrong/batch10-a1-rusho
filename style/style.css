@@ -144,9 +144,23 @@ nav ul li a {
     height: 1395px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
-    padding: 80px 97px 140px 97px;
+    padding: 80px 0 80px 0;
     margin: 0 auto;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inner-dev-content {
+    width: 946px;
+    height: 1235px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 0;
+    margin: 0 5px;
 }
 
 .development .web-development {
@@ -270,27 +284,27 @@ nav ul li a {
 
 
 /* inspiration section style */
-.insperation {
+.inspiration {
     width: 1140px;
     height: 775px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 88px;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 151px;
+    margin-top: 88px;
 }
 
-.insperation .inspi-title {
+.inspiration .inspi-title {
     font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
     color: #0D1321;
 }
 
-.insperation .inspi-desc {
+.inspiration .inspi-desc {
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
@@ -319,7 +333,6 @@ nav ul li a {
     height: 460px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
     margin: 0 auto;
     margin-bottom: 180px;
@@ -347,7 +360,9 @@ nav ul li a {
 
 .skills-container {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+    gap: 24px;
 }
 .skills {
     width: 1140px;
@@ -355,7 +370,7 @@ nav ul li a {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    gap: 24px;
+    gap: 30px;
 
 }
 
@@ -575,6 +590,12 @@ footer {
     margin: 0 auto;
 }
 
+.footer-content{
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+}
+
 
 .footer-container {
     width: 1140px;
@@ -592,6 +613,7 @@ footer {
     font-weight: 600;
     color: #0D1321;
     letter-spacing: 0%;
+    text-align: left;
 }
 
 .footer-icon {
@@ -599,4 +621,6 @@ footer {
     height: 36px;
     gap: 30px;
     display: flex;
+    margin-right: 96px;
+    margin-top: 20px;
 }
