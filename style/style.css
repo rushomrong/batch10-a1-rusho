@@ -13,14 +13,18 @@
 
 /* Navigation style */
 nav {
+    width: 100%;
     overflow: hidden;
     background: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
     /* margin: 0 150px 47px 150px; */
-    margin: 0;
+    /* margin-top: 35px; */
+    margin-bottom: 35px;
     box-sizing: border-box;
+    padding-bottom: 40px;
+    margin: 0 auto;
 }
 
 .top-menu {
@@ -29,11 +33,15 @@ nav {
     margin: 0 150px 47px 150px;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
 }
 
 nav ul {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+
 }
 
 nav ul li {
@@ -50,6 +58,7 @@ nav ul li a {
     font-size: 28px;
     font-weight: 800;
     color: #0D1321;
+    margin-top: 20px;
 }
 
 .download-btn {
@@ -65,7 +74,7 @@ nav ul li a {
     height: 58px;
     background-color: #fff;
     padding: 17px 24px 17px 24px;
-    margin-top: 30px;
+    margin-top: 5px;
     cursor: pointer;
 }
 
@@ -487,7 +496,7 @@ nav ul li a {
 .support {
     width: 1140px;
     height: 313px;
-    background-image: url("../assets/handshake.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url("../assets/handshake.jpg");
     position: relative;
     display: flex;
     flex-direction: column;
@@ -498,6 +507,9 @@ nav ul li a {
     margin-top: 170px;
     text-align: center;
     margin-bottom: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .support .support-content {
@@ -588,4 +600,3 @@ footer {
     gap: 30px;
     display: flex;
 }
-
